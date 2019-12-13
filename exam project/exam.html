@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Examin register</title>
+       
+        <meta name='viewport' content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+
+        <link href="exam.css" rel="stylesheet">
+    </header>
+    <body>
+          
+              <!--modal register ------------------>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+               Register
+              </button>
+
+              
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">REGISTER A NEW ACCOUNT</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12"><div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="Email" name="email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                </div>
+                              </div></div>
+                            <div class="col-12  py-lg-1">
+                              <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1">@</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username" name="name" aria-label="Username" aria-describedby="basic-addon1">
+                              </div></div>
+                            <div class="col-12  py-lg-1">  <div class="input-group mb-3">
+                               
+                                <input type="password" class="form-control" placeholder="password" name="pass" aria-label="Username" aria-describedby="basic-addon1">
+                              </div></div>
+                            <div class="col-12  py-lg-1">  <div class="input-group mb-3">
+                               
+                                <input type="password" class="form-control" placeholder="Address" name="address" aria-label="Username" aria-describedby="basic-addon1">
+                              </div></div>
+                            <div class="col-12  py-lg-1">  <div class="input-group mb-3">
+                               
+                                <input type="password" class="form-control" placeholder="Age" name="age" aria-label="Username" aria-describedby="basic-addon1">
+                              </div></div>
+                            <div  class="col-12 py-lg-1">  <div class="input-group mb-3">
+                               
+                                <input type="password" class="form-control" placeholder="Track" name="track" aria-label="Username" aria-describedby="basic-addon1">
+                              </div></div>
+                          </div>
+                    
+                    </div>
+                    <div class="modal-footer d-block  float-left">
+                      <button type="button"  class="btn btn-warning d-block" >SIGN UP</button>
+                      <span>Are you a member?</span><a href="#">LOGN NOW</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+            <footer class=" default-padding-top text-light">
+              <div class="container">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-sm-12  ">
+                     <img src="logo.png "class="p-2 col-sm-12"  > 
+                     <p class="p-2">Please write your email and get our amazing updates, news and support</p> 
+                     <div class="p-2 "><input class="p-1 border border-secondary rounded-pill  form-control"   type="email"  placeholder="Email"></div>
+                    </div>
+                    <div class="col-lg-4 p-5 col-sm-12">
+                      <a href="#" ><h5>About</h5></a>
+                      <h6 class="py-2">why us</h6>
+                      <p>because we measure your level well </p>
+                      <a href="#"><h5>Contact us</h5></a>
+                      <a href="#"><h5>Exam</h5></a>
+                      <a href="#" class="py-2"><h6>level one</h6></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                      <iframe  class="col-12" height="300px"  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14767.262289338461!2d70.79414485000001!3d22.284975!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1424308883981"></iframe>
+                
+                    </div>
+                  </div>
+                  
+              </div>
+              <div id="map"> </div>
+            </footer>
+        <script src="jquery-3.3.1.slim.min.js"></script>
+        <script src='js/bootstrap.min.js'></script>
+        <script src='exam.js'></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+    async defer></script>
+    </body>
+
+</html>

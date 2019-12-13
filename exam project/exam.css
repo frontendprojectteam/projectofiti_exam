@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    background-color: #002147;
+}
+.container .form-control {
+    background-color: #002147;
+    color: white;
+}
+.container a{
+   color: white;
+}
+.container a:hover{
+    color: rgb(179, 179, 31);
+}
